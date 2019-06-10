@@ -1,0 +1,193 @@
+{
+    "url": "https://shimataku.hatenablog.com/entry/2019/05/30/152438",
+    "tags": "",
+    "updated": "1559222597.695562",
+    "title": null,
+    "sources": [
+        "/data/sources/stdin-1559222573.txt"
+    ],
+    "history": {
+        "media": [
+            {
+                "start_ts": "2019-05-30 13:23:14.534761",
+                "cmd": [
+                    "youtube-dl",
+                    "--write-description",
+                    "--write-info-json",
+                    "--write-annotations",
+                    "--yes-playlist",
+                    "--write-thumbnail",
+                    "--no-call-home",
+                    "--no-check-certificate",
+                    "--user-agent",
+                    "--all-subs",
+                    "--extract-audio",
+                    "--keep-video",
+                    "--ignore-errors",
+                    "--geo-bypass",
+                    "--audio-format",
+                    "mp3",
+                    "--audio-quality",
+                    "320K",
+                    "--embed-thumbnail",
+                    "--add-metadata",
+                    "https://shimataku.hatenablog.com/entry/2019/05/30/152438"
+                ],
+                "end_ts": "2019-05-30 13:23:15.522877",
+                "status": "succeeded",
+                "pwd": "/data/archive/1559222573",
+                "duration": 0,
+                "output": "media"
+            }
+        ],
+        "pdf": [
+            {
+                "start_ts": "2019-05-30 13:22:57.473792",
+                "cmd": [
+                    "google-chrome-unstable",
+                    "--headless",
+                    "--no-sandbox",
+                    "--disable-gpu",
+                    "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36",
+                    "--window-size=1440,2000",
+                    "--timeout=60000",
+                    "--print-to-pdf",
+                    "https://shimataku.hatenablog.com/entry/2019/05/30/152438"
+                ],
+                "end_ts": "2019-05-30 13:23:03.913235",
+                "status": "succeeded",
+                "pwd": "/data/archive/1559222573",
+                "duration": 6,
+                "output": "output.pdf"
+            }
+        ],
+        "favicon": [
+            {
+                "start_ts": "2019-05-30 13:22:53.297672",
+                "cmd": [
+                    "curl",
+                    "--max-time",
+                    "60",
+                    "--location",
+                    "--output",
+                    "favicon.ico",
+                    "https://www.google.com/s2/favicons?domain=shimataku.hatenablog.com"
+                ],
+                "end_ts": "2019-05-30 13:22:53.460519",
+                "status": "succeeded",
+                "pwd": "/data/archive/1559222573",
+                "duration": 0,
+                "output": "favicon.ico"
+            }
+        ],
+        "git": [],
+        "title": [
+            {
+                "start_ts": "2019-05-30 13:22:53.102341",
+                "cmd": [
+                    "curl",
+                    "https://shimataku.hatenablog.com/entry/2019/05/30/152438",
+                    "|",
+                    "grep",
+                    "<title>"
+                ],
+                "end_ts": "2019-05-30 13:22:53.295013",
+                "status": "succeeded",
+                "pwd": "/data/archive/1559222573",
+                "duration": 0,
+                "output": "\u682a\u5f0f\u4f1a\u793e\u30ef\u30fc\u30af\u30b9\u30a2\u30d7\u30ea\u30b1\u30fc\u30b7\u30e7\u30f3\u30ba\u3092\u9000\u8077\u3057\u307e\u3057\u305f - \u3057\u307e\u305f\u304f\u30d6\u30ed\u30b0"
+            }
+        ],
+        "wget": [
+            {
+                "start_ts": "2019-05-30 13:22:53.463200",
+                "cmd": [
+                    "wget",
+                    "--no-verbose",
+                    "--adjust-extension",
+                    "--convert-links",
+                    "--force-directories",
+                    "--backup-converted",
+                    "--span-hosts",
+                    "--no-parent",
+                    "-e",
+                    "robots=off",
+                    "--restrict-file-names=windows",
+                    "--timeout=60",
+                    "--warc-file=warc/1559222573",
+                    "--page-requisites",
+                    "--user-agent=ArchiveBox/db1f6efc9 (+https://github.com/pirate/ArchiveBox/) wget/1.18",
+                    "https://shimataku.hatenablog.com/entry/2019/05/30/152438"
+                ],
+                "end_ts": "2019-05-30 13:22:57.473264",
+                "status": "succeeded",
+                "pwd": "/data/archive/1559222573",
+                "duration": 4,
+                "output": "shimataku.hatenablog.com/entry/2019/05/30/152438.html"
+            }
+        ],
+        "dom": [
+            {
+                "start_ts": "2019-05-30 13:23:09.207647",
+                "cmd": [
+                    "google-chrome-unstable",
+                    "--headless",
+                    "--no-sandbox",
+                    "--disable-gpu",
+                    "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36",
+                    "--window-size=1440,2000",
+                    "--timeout=60000",
+                    "--dump-dom",
+                    "https://shimataku.hatenablog.com/entry/2019/05/30/152438"
+                ],
+                "end_ts": "2019-05-30 13:23:14.533655",
+                "status": "succeeded",
+                "pwd": "/data/archive/1559222573",
+                "duration": 5,
+                "output": "output.html"
+            }
+        ],
+        "screenshot": [
+            {
+                "start_ts": "2019-05-30 13:23:03.913611",
+                "cmd": [
+                    "google-chrome-unstable",
+                    "--headless",
+                    "--no-sandbox",
+                    "--disable-gpu",
+                    "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36",
+                    "--window-size=1440,2000",
+                    "--timeout=60000",
+                    "--screenshot",
+                    "https://shimataku.hatenablog.com/entry/2019/05/30/152438"
+                ],
+                "end_ts": "2019-05-30 13:23:09.206824",
+                "status": "succeeded",
+                "pwd": "/data/archive/1559222573",
+                "duration": 5,
+                "output": "screenshot.png"
+            }
+        ],
+        "archive_org": [
+            {
+                "start_ts": "2019-05-30 13:23:15.523315",
+                "cmd": [
+                    "curl",
+                    "--location",
+                    "--head",
+                    "--user-agent",
+                    "ArchiveBox/db1f6efc934bbcdf53377bf51a064c6fd0fc5b1d (+https://github.com/pirate/ArchiveBox/)",
+                    "--max-time",
+                    "60",
+                    "https://web.archive.org/save/https://shimataku.hatenablog.com/entry/2019/05/30/152438"
+                ],
+                "end_ts": "2019-05-30 13:23:17.685825",
+                "status": "succeeded",
+                "pwd": "/data/archive/1559222573",
+                "duration": 2,
+                "output": "https://web.archive.org/web/20190530132317/https://shimataku.hatenablog.com/entry/2019/05/30/152438"
+            }
+        ]
+    },
+    "timestamp": "1559222573"
+}
