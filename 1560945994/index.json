@@ -1,0 +1,193 @@
+{
+    "sources": [
+        "/data/sources/stdin-1560945994.txt"
+    ],
+    "history": {
+        "pdf": [
+            {
+                "end_ts": "2019-06-19 12:06:40.025586",
+                "status": "succeeded",
+                "output": "output.pdf",
+                "duration": 2,
+                "cmd": [
+                    "google-chrome-unstable",
+                    "--headless",
+                    "--no-sandbox",
+                    "--disable-gpu",
+                    "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36",
+                    "--window-size=1440,2000",
+                    "--timeout=60000",
+                    "--print-to-pdf",
+                    "http://blog.mobilehackerz.jp/2016/03/blog-post.html?m=1"
+                ],
+                "pwd": "/data/archive/1560945994",
+                "start_ts": "2019-06-19 12:06:37.523995"
+            }
+        ],
+        "git": [],
+        "favicon": [
+            {
+                "end_ts": "2019-06-19 12:06:35.299756",
+                "status": "succeeded",
+                "output": "favicon.ico",
+                "duration": 0,
+                "cmd": [
+                    "curl",
+                    "--max-time",
+                    "60",
+                    "--location",
+                    "--output",
+                    "favicon.ico",
+                    "https://www.google.com/s2/favicons?domain=blog.mobilehackerz.jp"
+                ],
+                "pwd": "/data/archive/1560945994",
+                "start_ts": "2019-06-19 12:06:35.060997"
+            }
+        ],
+        "media": [
+            {
+                "end_ts": "2019-06-19 12:06:46.003885",
+                "status": "succeeded",
+                "output": "media",
+                "duration": 1,
+                "cmd": [
+                    "youtube-dl",
+                    "--write-description",
+                    "--write-info-json",
+                    "--write-annotations",
+                    "--yes-playlist",
+                    "--write-thumbnail",
+                    "--no-call-home",
+                    "--no-check-certificate",
+                    "--user-agent",
+                    "--all-subs",
+                    "--extract-audio",
+                    "--keep-video",
+                    "--ignore-errors",
+                    "--geo-bypass",
+                    "--audio-format",
+                    "mp3",
+                    "--audio-quality",
+                    "320K",
+                    "--embed-thumbnail",
+                    "--add-metadata",
+                    "http://blog.mobilehackerz.jp/2016/03/blog-post.html?m=1"
+                ],
+                "pwd": "/data/archive/1560945994",
+                "start_ts": "2019-06-19 12:06:44.588572"
+            }
+        ],
+        "dom": [
+            {
+                "end_ts": "2019-06-19 12:06:44.587520",
+                "status": "succeeded",
+                "output": "output.html",
+                "duration": 1,
+                "cmd": [
+                    "google-chrome-unstable",
+                    "--headless",
+                    "--no-sandbox",
+                    "--disable-gpu",
+                    "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36",
+                    "--window-size=1440,2000",
+                    "--timeout=60000",
+                    "--dump-dom",
+                    "http://blog.mobilehackerz.jp/2016/03/blog-post.html?m=1"
+                ],
+                "pwd": "/data/archive/1560945994",
+                "start_ts": "2019-06-19 12:06:42.712243"
+            }
+        ],
+        "screenshot": [
+            {
+                "end_ts": "2019-06-19 12:06:42.711669",
+                "status": "succeeded",
+                "output": "screenshot.png",
+                "duration": 2,
+                "cmd": [
+                    "google-chrome-unstable",
+                    "--headless",
+                    "--no-sandbox",
+                    "--disable-gpu",
+                    "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36",
+                    "--window-size=1440,2000",
+                    "--timeout=60000",
+                    "--screenshot",
+                    "http://blog.mobilehackerz.jp/2016/03/blog-post.html?m=1"
+                ],
+                "pwd": "/data/archive/1560945994",
+                "start_ts": "2019-06-19 12:06:40.026166"
+            }
+        ],
+        "title": [
+            {
+                "end_ts": "2019-06-19 12:06:35.059542",
+                "status": "succeeded",
+                "output": "MobileHackerz\u518d\u8d77\u52d5\u65e5\u8a18: \u682a\u5f0f\u4f1a\u793e\u30a6\u30a3\u30eb\u30ec\u30a4\u30ba\u304b\u3089\u4e0d\u52d5\u7523\u306e\u55b6\u696d\u96fb\u8a71\u304c\u3042\u3063\u305f",
+                "duration": 0,
+                "cmd": [
+                    "curl",
+                    "http://blog.mobilehackerz.jp/2016/03/blog-post.html?m=1",
+                    "|",
+                    "grep",
+                    "<title>"
+                ],
+                "pwd": "/data/archive/1560945994",
+                "start_ts": "2019-06-19 12:06:34.715437"
+            }
+        ],
+        "archive_org": [
+            {
+                "end_ts": "2019-06-19 12:06:47.269083",
+                "status": "succeeded",
+                "output": "https://web.archive.org/web/20190619120646/http://blog.mobilehackerz.jp/2016/03/blog-post.html?m=1",
+                "duration": 1,
+                "cmd": [
+                    "curl",
+                    "--location",
+                    "--head",
+                    "--user-agent",
+                    "ArchiveBox/db1f6efc934bbcdf53377bf51a064c6fd0fc5b1d (+https://github.com/pirate/ArchiveBox/)",
+                    "--max-time",
+                    "60",
+                    "https://web.archive.org/save/http://blog.mobilehackerz.jp/2016/03/blog-post.html?m=1"
+                ],
+                "pwd": "/data/archive/1560945994",
+                "start_ts": "2019-06-19 12:06:46.004381"
+            }
+        ],
+        "wget": [
+            {
+                "end_ts": "2019-06-19 12:06:37.523635",
+                "status": "succeeded",
+                "output": "blog.mobilehackerz.jp/2016/03/blog-post.html@m=1.html",
+                "duration": 2,
+                "cmd": [
+                    "wget",
+                    "--no-verbose",
+                    "--adjust-extension",
+                    "--convert-links",
+                    "--force-directories",
+                    "--backup-converted",
+                    "--span-hosts",
+                    "--no-parent",
+                    "-e",
+                    "robots=off",
+                    "--restrict-file-names=windows",
+                    "--timeout=60",
+                    "--warc-file=warc/1560945995",
+                    "--page-requisites",
+                    "--user-agent=ArchiveBox/db1f6efc9 (+https://github.com/pirate/ArchiveBox/) wget/1.18",
+                    "http://blog.mobilehackerz.jp/2016/03/blog-post.html?m=1"
+                ],
+                "pwd": "/data/archive/1560945994",
+                "start_ts": "2019-06-19 12:06:35.302352"
+            }
+        ]
+    },
+    "url": "http://blog.mobilehackerz.jp/2016/03/blog-post.html?m=1",
+    "tags": "",
+    "title": null,
+    "timestamp": "1560945994",
+    "updated": "1560946007.275839"
+}
